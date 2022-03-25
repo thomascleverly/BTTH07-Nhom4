@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div id="main">
+        <div class="regis-form">
+            <h1>Registration Form</h1>
+            <form action="">
+                <div class="row">
+                    <div class="col">
+                        <span>User ID:</span>
+                    </div>
+                    <div class="col">
+                        <input type="text" name="txtUserID" id="txtUserID" placeholder="Bắt buộc">
+                        <span id="statusOfUserID"></span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <span>Password:</span>
+                    </div>
+                    <div class="col">
+                        <input type="password" name="txtPassword" id="txtPassword" placeholder="Bắt buộc">
+                        <span id="statusOfPassword"></span>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <span>Name:</span>
+                    </div>
+                    <div class="col">
+                        <input type="name" name="txtName" id="txtName" placeholder="Bắt buộc">
+                        <span id="statusOfName"></span>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <span>Address:</span>
+                    </div>
+                    <div class="col">
+                        <input type="address" name="txtAddress" id="txtAddress" placeholder="Không bắt buộc">
+                        <span id="statusOfAddress"></span>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <label for="countries">Country:</label>
+                        <select name="countries" id="countries">
+                            <option value="select">(Please Select A Country)</option>
+                            <option value="vietnam">Vietnam</option>
+                            <option value="japan">Japan</option>
+                            <option value="germany">Germany</option>
+                            <option value="korean">Korean</option>
+                        </select>
+                        <span id="statusOfCountry"></span>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <span>ZIP Code:</span>
+                    </div>
+                    <div class="col">
+                        <input type="zipCode" name="zipCode" id="zipCode" placeholder="Bắt buộc">
+                        <span id="statusOfZipCode"></span>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <span>Email:</span>
+                    </div>
+                    <div class="col">
+                        <input type="Email" name="txtEmail" id="txtEmail" placeholder="Bắt buộc">
+                        <span id="statusOfEmail"></span>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <span>Sex:</span>
+                    </div>
+                    <div class="col">
+                        <input type="radio" id="male" name="sex" value="Male">
+                        <label for="male">Male</label>
+                        <input type="radio" id="female" name="sex" value="Female">
+                        <label for="female">Female</label>
+                        <span id="statusOfSex"></span>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <span>Language:</span>
+                    </div>
+                    <div class="col">
+                        <input type="checkbox" id="english" name="language" value="English">
+                        <label for="male">English</label>
+                        <input type="checkbox" id="nonEnglish" name="language" value="Non English">
+                        <label for="female">Non English</label>
+                        <span id="statusOfLanguage"></span>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <span>About:</span>
+                    </div>
+                    <div class="col">
+                        <input type="text" name="about" id="about" placeholder="Không bắt buộc">
+                        <span id="statusOfAbout"></span>
+                    </div>
+                </div>
+
+                <!-- <div class="row"> -->
+                    <div class="submit">
+                        <input type="submit" name="btnSubmit" id="btnSubmit" value="Submit">
+                    </div>
+                <!-- </div> -->
+            </form>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>

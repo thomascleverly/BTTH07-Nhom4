@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#main{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+#txtUserID, #txtPassword, #txtName,
+#txtAddress, #countries, #zipCode, #txtEmail{
+    height: 25px;
+}
+
+input{
+    margin: 0 5px;
+    padding-left: 5px;
+    border: 1px solid rgb(72, 124, 124);
+}
+
+.regis-form{
+    /* width: 60%; */
+    padding: 20px;
+    border: 1px solid #333;
+}
+
+label{
+    margin-top: px;
+}
+
+.submit{
+    text-align: center;
+}
+
+input::placeholder{
+    
+}
+
+#about{
+    width: 250px;
+    height: 100px;
+    text-align: center;
+}
+
+#btnSubmit{
+    width: 60px;
+    height: 30px;
+    cursor: pointer;
+}
