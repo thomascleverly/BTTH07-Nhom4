@@ -29,7 +29,6 @@ input{
 }
 
 .regis-form{
-    /* width: 60%; */
     padding: 20px;
     border: 1px solid #333;
 }
@@ -40,10 +39,6 @@ label{
 
 .submit{
     text-align: center;
-}
-
-input::placeholder{
-    
 }
 
 #about{
